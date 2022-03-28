@@ -1,4 +1,5 @@
 node_modules
 .rollup
+.rollup.cache
 tsconfig.tsbuildinfo
 .pnpm-debug.log

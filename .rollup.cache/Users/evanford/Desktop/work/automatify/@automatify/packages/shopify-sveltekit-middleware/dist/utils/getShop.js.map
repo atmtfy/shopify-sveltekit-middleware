@@ -1,1 +1,0 @@
-{"version":3,"file":"getShop.js","sourceRoot":"","sources":["../../src/utils/getShop.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,UAAU,OAAO,CAAC,GAAO;IACrC,IAAI,GAAG,CAAC,YAAY,CAAC,GAAG,CAAC,MAAM,CAAC,EAAE;QAChC,OAAO,GAAG,CAAC,YAAY,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC;KACrC;SAAM;QACL,OAAO,KAAK,CAAC;KACd;AACH,CAAC"}

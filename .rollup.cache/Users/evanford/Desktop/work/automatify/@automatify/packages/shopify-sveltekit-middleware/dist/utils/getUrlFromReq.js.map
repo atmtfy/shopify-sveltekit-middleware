@@ -1,1 +1,0 @@
-{"version":3,"file":"getUrlFromReq.js","sourceRoot":"","sources":["../../src/utils/getUrlFromReq.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,OAAO,UAAU,aAAa,CAAC,GAAmB;IACtD,OAAO,IAAI,GAAG,CAAC,GAAG,CAAC,GAAG,EAAE,UAAU,GAAG,CAAC,OAAO,CAAC,IAAI,EAAE,CAAC,CAAA;AACxD,CAAC"}
