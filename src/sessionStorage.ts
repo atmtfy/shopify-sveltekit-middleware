@@ -1,7 +1,7 @@
 import { Shopify } from '@shopify/shopify-api';
 import type { SessionInterface } from '@shopify/shopify-api';
 import type { Session } from '@shopify/shopify-api/dist/auth/session';
-import fs from 'fs';
+import * as fs from 'fs';
 import { preFsCheck } from './utils';
 // Saves the sesson to JSON
 // On prod save the session to the DB and use encryption
