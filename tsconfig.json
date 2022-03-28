@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module" : "ESNext",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "composite": true
+  },
+  "include": [
+    "./*.ts",
+    "./**/*.ts",
+    "./global.d.ts"
+  ],
+  "exclude": ["rollup.config.ts", "./dist/**/*.ts", "./dist/*.ts", "node_modules"],
+  "types" : [
+    "vite",
+    "@shopify/shopify-api"
+  ]
+}

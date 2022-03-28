@@ -1,0 +1,106 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/evanford/Desktop/work/automatify/@automatify"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@atmtfy/shopify-sveltekit-middleware",
+      "version": "0.0.1",
+      "description": "A middleware plugin for vite/sveltekit that enables setting up authorization and context sessions without needing to rely on a full node.js app.",
+      "main": "src/main.ts",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "/Users/evanford/Desktop/work/automatify/@automatify/packages/shopify-sveltekit-middleware"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "root",
+      "private": true,
+      "devDependencies": {
+        "@types/node": "^16.11.21",
+        "typescript": "^4.5.5"
+      },
+      "scripts": {
+        "prestart": "tsc --build"
+      }
+    },
+    "prefix": "/Users/evanford/Desktop/work/automatify/@automatify"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/Users/evanford/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/evanford/Desktop/work/automatify/@automatify/node_modules/.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "/Users/evanford/Desktop/work/automatify/@automatify",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.5.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.5.5"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/16.11.21",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/node",
+      "rawSpec": "^16.11.21"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/16.11.21",
+    "requester": "/Users/evanford/Desktop/work/automatify/@automatify",
+    "status": "found_in_store"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/16.11.21",
+    "requester": "/Users/evanford/Desktop/work/automatify/@automatify",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.5.5",
+    "requester": "/Users/evanford/Desktop/work/automatify/@automatify",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.5.5",
+    "requester": "/Users/evanford/Desktop/work/automatify/@automatify",
+    "status": "resolved"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/16.11.21",
+    "wanted": {
+      "dependentId": "packages/shopify-sveltekit-middleware",
+      "name": "@types/node",
+      "rawSpec": "^16.11.21"
+    }
+  },
+  "12 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@types/vite is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer npm_[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer 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",
+      "url": "https://registry.npmjs.org/@types%2Fvite"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@types/vite",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@types%2Fvite: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/@types%2Fvite: Not Found - 404\n    at RetryOperation._fn (/Users/evanford/.nvm/versions/node/v16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.26.1/node_modules/pnpm/dist/pnpm.cjs:85455:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
