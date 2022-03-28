@@ -1,6 +1,6 @@
 {
   "name": "@atmtfy/shopify-sveltekit-middleware",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A middleware plugin for vite/sveltekit that enables setting up authorization and context sessions without needing to rely on a full node.js app.",
   "main": "./dist/main.js",
   "type": "module",
